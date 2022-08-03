@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Peralta&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Peralta&family=Poppins:wght@300;400;700&display=swap%27');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather',sans-serif;
+    font-family: 'Poppins',sans-serif;
+}
+
+.container .title{
+    width: 91px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: #151B32; 
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 24px;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+.nav .nav-search{
+    display: flex;
+    position: relative;
+}
+.nav-search .ic-search{
+    position: absolute;
+    font-size: 32px;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+.nav-search input {
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #333;
+    padding-left: 56px;
+    width: 327px;
+    height: 64px;   
+    color: #151B32;
+    font-family: 'Open Sans', sans-serif;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.nav-bars .nav-bar-item{
+    display: flex;
+    list-style-type: none;
+}
+.nav-bars .nav-bar-item li{
+    padding: 16px;
+}
+.nav-bar-item li a{
+    color: #151B32;
+    opacity: 0.8;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.nav-bar-item  li:hover{
+    color: #000;
+    cursor: pointer;
+    background-color: #849FFF;
+    border-radius: 8px;
+
+}
+.nav-bar-item li:nth-child(2){
+    color: #000;
+    background-color: #849FFF;
+    border-radius: 8px;
+}
+main{
+    
+    margin: 70px 100px 100px 100px;
+}
+.box-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.box-item{
+    width: 327px;
+    height: 208px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 16px;
+
+}
+.box-item:hover{
+    border: 1px solid #BFC8E6;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+    border-radius: 16px;
+}
+.box-item:nth-child(2){
+    border: 1px solid #BFC8E6;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+    border-radius: 16px;
+}
+.box-item img{
+    margin: 24px 16px auto 24px;
+    height: 97px;
+    border-radius: 50%;
+}
+.box-item-info{
+    width: 150px;
+    height: 106px;
+    margin-top: 24px;
+}
+.box-item-info .info-name{
+    margin-top:20px;
+    margin-bottom: 4px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    color: #151B32;
+}
+.box-item-info .info-address{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #151B32;
+}
+.box-item-info .info-hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+.box-item-info .info-hobbies .hobbies-1{
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    margin-right: 4px;
+    padding: 2px 8px;
+    color: #516FD5;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+.box-list-down{
+    display: flex;
+    align-items: flex-start;
+}
